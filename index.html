@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Intuit Accounts - Sign Up</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
     </header>
     <main>
         <div>
-            <a href=""><img src="/images/intuit-logo.svg" alt=""></a>
+            <a href=""><img id="intuit-main-logo" src="/images/intuit-logo.png" alt="intuit-logo"></a>
         </div>
         <div>
             <span><a href=""><img src="" alt=""> mint</a></span>
@@ -27,6 +28,29 @@
         </div>
         <fieldset>
             <h3>Create an Intuit account</h3>
+            <p>One account for everything Intuit, including Mint.</p>
+            <a href="">Learn more</a>
+            <label>
+                Email address
+                <input type="text" name="email-address">
+            </label>
+            <label>
+                Phone (recommended)
+                <input type="number" name="phone">
+            </label>
+            <label>
+                Password
+                <input type="password">
+            </label>
+            <button>
+                Create Account
+            </button>
+            <p>
+                By clicking Create Account, you agree to our <span><a href="">Terms</a></span> and have read and acknowledge our <span><a href="">Global Privacy Statement.</a></span>
+            </p>
+            <div>
+                <p>Invisible reCAPTCHA by Google <span><a href="">Privacy Policy</a></span> and <span><a href="">Terms of Use.</a></span></p>
+            </div>
         </fieldset>
     </main>
     <footer>
