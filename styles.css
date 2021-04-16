@@ -2,6 +2,58 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: #ECEEF1;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.nav-bar {
+    height: 4rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-bar li {
+    color: #505050;
+    list-style: none;
+    margin-top: 0.3rem;
+    margin-right: 1rem;
+    font-size: 0.7rem;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #0075C5;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+.nav-bar button {
+    background-color: #0075C5;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 0.3rem;
+    margin-right: 2rem;
+    height: 50%;
+    align-self: center;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar span {
+    margin-right:0.5rem;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#intuit-main-logo {
+    width: 7rem;
+    
 }
 
 main, footer {
@@ -13,7 +65,12 @@ main, footer {
     flex-direction: column;
 }
 
-#intuit-main-logo {
-    width: 7rem;
-    
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer li {
+    display: inline-block;
 }
