@@ -39,6 +39,7 @@ a:hover {
     align-self: center;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .nav-bar span {
@@ -53,7 +54,20 @@ header {
 
 #intuit-main-logo {
     width: 7rem;
-    
+    margin-bottom: 1.5rem;
+}
+
+.intuit-options {
+    margin-bottom: 1.5rem;
+}
+
+.intuit-options span {
+    margin: 1rem;
+    font-size: 18px;
+}
+
+.intuit-options a {
+    color: #404040;
 }
 
 main, footer {
@@ -66,6 +80,7 @@ main, footer {
 }
 
 fieldset {
+    padding: 0;
     background-color: #fff;
     width: 45%;
     display: flex;
@@ -85,15 +100,17 @@ h2 {
 .sub-title {
     text-align: center;
     font-size: 14px;
+    color: #404040;
     margin-bottom: 0.1rem;
 }
 
 
 label {
-    width: 90%;
+    width: 85%;
     display: flex;
     flex-direction: column;
     font-size: 14px;
+    color: #404040;
     margin-top: 1.1rem;
     padding-bottom: 1rem;
 }
@@ -113,19 +130,60 @@ input {
 #create-account-btn {
     background-color: #0075C5;
     color: white;
-    width: 90%;
+    width: 85%;
     font-size: 1rem;
     padding: 10px 15px;
     border-radius: 0.3rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 1rem;
+    cursor: pointer;
 }
 
 fieldset button span {
     margin-right: 0.5rem;
 }
 
+#terms-text {
+    text-align: center;
+    font-size: 12px;
+    color: #757575;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+#recaptcha {
+    width: 100%;
+    height: 55px;
+    background-color: #eceef1;
+    font-size: 10px;
+    color: #8d9096;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    font-size: 12px;
+    color: #505050;
+}
+
+
+
 footer li {
+    margin-top: 1rem;
+    margin-right: 2rem;
     display: inline-block;
+    
+}
+
+footer a {
+    color: #505050;
+}
+
+footer p {
+    padding: 0;
+    margin: 0;
 }
